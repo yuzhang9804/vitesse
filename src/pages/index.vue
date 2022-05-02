@@ -9,9 +9,5 @@
     <p>
       <em text-sm op75>Opinionated Vite Starter Template</em>
     </p>
-
-    <div text-100px>
-      <span>test</span>
-    </div>
   </div>
 </template>
