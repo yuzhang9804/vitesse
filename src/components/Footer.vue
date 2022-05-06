@@ -9,5 +9,9 @@ const toggleDark = useToggle(isDark)
       <div v-if="isDark" i-carbon-moon />
       <div v-else i-carbon-sun />
     </button>
+
+    <a class="icon-btn mx-2" rel="noreferrer" href="https://github.com/yuzhang9804/vitesse" target="_blank" title="GitHub">
+      <div i-carbon-logo-github />
+    </a>
   </nav>
 </template>
