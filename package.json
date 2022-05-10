@@ -4,7 +4,8 @@
     "dev": "vite --port 3333 --open",
     "build": "cross-env NODE_ENV=production vite build",
     "preview": "vite preview",
-    "lint": "eslint \"**/*.{vue,ts,js,json}\""
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "dependencies": {
     "@vueuse/core": "^8.4.2",
@@ -17,7 +18,7 @@
     "@unocss/preset-icons": "^0.32.13",
     "@unocss/reset": "^0.32.13",
     "@vitejs/plugin-vue": "^2.3.2",
-    "@yuzhang9804/eslint-config-vue": "^0.4.2",
+    "@yuzhang9804/eslint-config-vue": "^0.5.0",
     "cross-env": "^7.0.3",
     "eslint": "^8.14.0",
     "pnpm": "^7.0.0",
