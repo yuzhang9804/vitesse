@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "@yuzhang9804/eslint-config-vue"
-  ],
-  "rules": {}
-}
